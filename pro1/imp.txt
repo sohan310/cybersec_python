@@ -1,0 +1,10 @@
+set number " show line numbers
+set mouse=a
+set autoindent " copy indent from current line when starting a new line
+set smartindent " even better autoindent
+filetype on
+filetype indent on
+syntax on
+set cursorline
+syntax enable
+autocmd bufnewfile *.py so ~/.vim/py.txt
